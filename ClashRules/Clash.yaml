@@ -68,15 +68,15 @@ dns:
   nameserver:
     - 223.5.5.5 # 阿里DNS
     - 140.143.226.193 # Googlehost DNS
-	- 140.143.65.193 # Googlehost DNS
+    - 140.143.65.193 # Googlehost DNS
     - 119.29.29.29 # 腾讯DNS
     - 117.50.10.10 # ONE DNS纯净版
     - 114.114.114.114 # 114DNS
   fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
     - 8.8.8.8 # 谷歌DNS
     - 1.1.1.1 # Cloudflare DNS
-	- 176.103.130.130 # ADguard DNS
-	- 176.103.130.131 # ADguard DNS
+    - 176.103.130.130 # ADguard DNS
+    - 176.103.130.131 # ADguard DNS
     - tls://dns.adguard.com:853
     - tls://dns.google:853
     - https://dns.adguard.com/dns-query
