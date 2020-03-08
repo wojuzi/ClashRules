@@ -1,2 +1,2 @@
 # ClashRules
-自用
+自用Clash规则
