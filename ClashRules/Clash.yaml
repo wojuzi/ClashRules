@@ -13,7 +13,3 @@ dns:
      - 119.29.29.29
      - 114.114.114.114
      - 223.5.5.5
-  fallback:
-     - tls://dns.adguard.com:853
-     - tls://1.1.1.1:853
-     - tls://dns.google:853
