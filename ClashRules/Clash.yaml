@@ -4,13 +4,12 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:6170
-experimental:
-  ignore-resolve-fail: true
 dns:
   enable: true
   ipv6: false
   listen: 127.0.0.1:5450
   enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16 
   default-nameserver:
     - 119.29.29.29
     - 119.28.28.28
@@ -19,11 +18,7 @@ dns:
     - '*.lan'
     - localhost.ptlogin2.qq.com
   nameserver:
-    - 119.29.29.29
-    - 119.28.28.28
-    - 1.2.4.8
     - tls://dns.alidns.com:853
-  fallback:
     - tls://dns.google:853
     - tls://dns.adguard.com:853
-    - tls://1.1.1.1:853
+  
